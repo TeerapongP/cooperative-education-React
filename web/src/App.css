@@ -1,38 +1,80 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+}
+.App h1{
+  margin-top: 6rem;
   text-align: center;
+  font-size: 4rem;
+  color: #2c9cdb;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.seach-data{
+  margin-top: 1.5rem;
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: none;
+  outline: none;
+  width: 50rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #BDBDBD;
 }
-
-.App-link {
-  color: #61dafb;
+.horizontal-line{
+  display: grid;
+  justify-content: center;
+  width: 50rem;
+  margin-bottom: 3rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-trips h2{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 50rem; 
+  color: black;
+}
+.discription-trips p{
+  width: 35rem;
+  margin-left: 50rem;
+  font-size: 1.2rem;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.images-trips img{
+  margin-top: 2rem;
+  max-width: 100%;
+  width: 18rem;
+  height: 25rem;
+  margin-left: 30rem;
+  border-radius: 10%;
+}
+#photos1{
+  max-width: 100%;
+  width: 7rem;
+  height: 7rem;
+  margin-left: 3rem;
+  margin-top: -10rem;
+}
+#photos2{
+  max-width: 100%;
+  width: 7rem;
+  height: 7rem;
+  margin-left: 3.5rem;
+  margin-top: -10rem;
+}
+#photos3{
+  max-width: 100%;
+  width: 7rem;
+  height: 7rem;
+  margin-left: 4rem;
+  margin-top: -10rem;
+}
+.tags-trips span{
+  display: flex;
+  margin-left: 50rem;
+  font-size: 1rem;
 }
